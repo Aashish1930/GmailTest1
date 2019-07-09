@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98354" started-at="2019-07-08T05:18:26Z" finished-at="2019-07-08T05:20:04Z">
+    <groups>
+      <group name="LoginPageTest.logintest">
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.gmail.testcases.LoginPageTest@1b0375b3]" name="LoginTest" class="com.gmail.testcases.LoginPageTest"/>
+      </group> <!-- LoginPageTest.logintest -->
+    </groups>
+    <test name="Default test" duration-ms="98354" started-at="2019-07-08T05:18:26Z" finished-at="2019-07-08T05:20:04Z">
+      <class name="com.gmail.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmail.testcases.LoginPageTest@1b0375b3]" name="setup" is-config="true" duration-ms="77853" started-at="2019-07-08T10:48:26Z" finished-at="2019-07-08T10:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.gmail.testcases.LoginPageTest@1b0375b3]" name="LoginTest" duration-ms="20452" started-at="2019-07-08T10:49:44Z" finished-at="2019-07-08T10:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.gmail.testcases.LoginPageTest@1b0375b3]" name="stop" is-config="true" duration-ms="0" started-at="2019-07-08T10:50:04Z" finished-at="2019-07-08T10:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.gmail.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

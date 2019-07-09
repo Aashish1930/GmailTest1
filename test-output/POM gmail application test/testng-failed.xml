@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POM gmail application test]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListner"/>
+  </listeners>
+  <test name="Gmail test (failed)">
+    <classes>
+      <class name="com.gmail.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyhomelogo"/>
+          <include name="sendingmail"/>
+          <include name="signout"/>
+          <include name="verifyUser"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.HomePageTest -->
+      <class name="com.gmail.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validatelogo"/>
+          <include name="passLoginData"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Gmail test (failed) -->
+</suite> <!-- Failed suite [POM gmail application test] -->
